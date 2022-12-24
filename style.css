@@ -1,0 +1,424 @@
+@import url('https://fonts.googleapis.com/css2?family=BhuTuka+Expanded+One&family=Playfair+Display:ital@1&family=Rubik+Dirt&family=Ubuntu:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 25px;
+    height: 75px;
+    align-items: center;
+
+}
+
+#sticky {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 1;
+}
+
+h2 {
+    font-family: sans-serif;
+    color: blueviolet;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+nav ul li {
+    display: inline-flex;
+    padding: 10px 6px;
+}
+
+nav ul li a.nav-item {
+    list-style: none;
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+    font-family: 'Ubuntu', sans-serif;
+    position: relative;
+}
+
+.buttons {
+    display: inline-block;
+}
+
+.btn {
+    background-color: blueviolet;
+    padding: 10px 13px;
+    border-radius: 10px;
+    font-size: 14px;
+    color: #fff;
+    border: 0px;
+    margin-left: 3px;
+    cursor: pointer;
+
+}
+
+a::after {
+    content: "";
+    position: absolute;
+    background-color: blueviolet;
+    width: 0;
+    height: 2px;
+    left: 0px;
+    bottom: -6px;
+}
+
+a:hover:after {
+    width: 100%;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: rgb(112, 40, 179);
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background-color: gray;
+    opacity: 0.2;
+}
+
+#second-navbar {
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 25px;
+    position: relative;
+    box-sizing: border-box;
+    box-shadow: 0px 9px 5px -6px rgba(128, 128, 128, 0.519);
+}
+
+#second-list {
+    padding-top: 5px;
+}
+
+.icon {
+    position: relative;
+    top: 14px;
+    font-size: 20px;
+    color: blueviolet;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#second-list li a.second-nav-items {
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Ubuntu', sans-serif;
+    color: blueviolet;
+    font-weight: bolder;
+    padding: 0px 5px;
+    position: relative;
+}
+
+.second-nav-items::after {
+    content: "";
+    position: absolute;
+    background-color: blueviolet;
+    width: 0;
+    height: 2px;
+    left: 0px;
+    bottom: -6px;
+}
+
+.second-nav-items:hover::after {
+    width: 100%;
+}
+
+#search-input {
+    position: relative;
+    display: none;
+}
+
+.secondSearch {
+    position: absolute;
+    top: 8px;
+    right: 30px;
+    font-size: 15px;
+    border: 2px solid blueviolet;
+    border-radius: 5px;
+    outline: 0;
+    width: 230px;
+    padding: 5px 0px 5px 10px;
+}
+
+.secondSearch::placeholder {
+    color: gray;
+}
+
+#main-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 25px;
+    padding-left: 60px;
+}
+
+.left-side {
+    max-width: 550px;
+}
+
+.coding-img {
+    width: 550px;
+}
+
+h1.heading {
+    font-family: 'ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 2.5rem;
+    padding-bottom: 5px;
+}
+
+h1.heading span {
+    color: blueviolet;
+}
+
+p.para {
+    color: gray;
+    font-family: sans-serif;
+    line-height: 25px;
+
+}
+
+.main-btn {
+    margin-top: 15px;
+    border: 0px;
+    cursor: pointer;
+}
+
+button#free-btn {
+    background-color: rgb(3, 2, 33);
+    color: #fff;
+    border-radius: 5px;
+    padding: 13px 10px;
+}
+
+button#free-btn:hover {
+    background-color: rgb(10, 9, 50);
+}
+
+button#blog {
+    padding: 13px 10px;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+.allCourses {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 25px;
+    padding: 0px 25px;
+
+}
+
+.allCourses p {
+    width: 300px;
+}
+
+p.courses-para {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+
+.allCourses p.first {
+    color: gray;
+    opacity: 0.8;
+    font-family: 'ubuntu', sans-serif;
+    font-size: 14px;
+    padding-top: 30px;
+}
+
+.allCourses p.second {
+    font-family: 'ubuntu', sans-serif;
+    font-size: 20px;
+    padding-top: 5px;
+}
+
+.allCourses p.third {
+    font-family: sans-serif;
+    font-size: 15px;
+    padding-top: 20px;
+    color: rgb(72, 71, 71);
+    line-height: 23px;
+
+}
+
+.courses p.courses-para {
+    font-size: 30px;
+    font-family: sans-serif;
+}
+
+.harry-images {
+    border-radius: 10px 10px 0px 0px;
+}
+
+div.courses {
+    box-shadow: 0px 0px 5px 2px rgb(0, 5, 0, 0.2);
+    border-radius: 15px;
+}
+
+.first,
+.second,
+.third,
+.courses-btn {
+    margin-left: 15px;
+}
+
+#tailwind {
+    margin-top: 80px;
+}
+
+#react {
+    margin-bottom: 15px;
+    margin-top: 60px;
+}
+
+#next-js {
+    margin-top: 105px;
+}
+
+.courses-btn {
+    background-color: rgb(97, 10, 178);
+    color: #fff;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 15px;
+    font-weight: bold;
+    font-family: 'ubuntu', sans-serif;
+    cursor: pointer;
+}
+
+.courses-btn:hover {
+    background-color: blueviolet;
+}
+
+p.para-tes {
+    text-align: center;
+    font-size: 35px;
+    font-family: sans-serif;
+    margin: 80px 0px 40px 0px;
+}
+
+.main-testimonial {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 70px;
+    padding: 0px 45px;
+}
+
+.testimonials {
+    max-width: 600px;
+    background-color: rgba(234, 234, 234, 0.31);
+    box-shadow: 3px 4px 4px 2px #867f7f26;
+    border-radius: 5px;
+    padding-top: 20px;
+}
+
+p#testimonial-first {
+    font-family: 'ubuntu', sans-serif;
+    color: rgb(81, 76, 76);
+    line-height: 25px;
+    word-spacing: 5px;
+}
+
+p#testimonial-second {
+    font-family: 'ubuntu', sans-serif;
+    color: rgb(81, 76, 76);
+    line-height: 25px;
+    word-spacing: 5px;
+}
+
+.man {
+    margin-left: 20px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+p.asif {
+    font-family: sans-serif;
+    color: rgba(19, 19, 19, 0.851);
+}
+
+p.web {
+    color: gray;
+    font-family: 'ubuntu', sans-serif;
+    font-size: 13px;
+    padding-top: 5px;
+}
+
+p.ayushi {
+    margin-top: 60px;
+    font-family: sans-serif;
+    color: rgba(19, 19, 19, 0.851);
+}
+
+.t-logo {
+    width: 40px;
+}
+
+.for-margin {
+    margin-left: 20px;
+}
+
+.footer-harry {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 50px;
+    box-shadow: 0px 7px 7px 3px rgba(0, 0, 0, 0.655);
+}
+
+img.harry-logo {
+    width: 50px;
+}
+
+p.copyright {
+    font-size: 18px;
+    font-family: 'ubuntu';
+    color: gray;
+}
+
+#icons {
+    font-size: 20px;
+}
+
+.social-media {
+    padding: 0px 5px;
+    color: gray;
+    cursor: pointer;
+    
+}
+.social-media:hover{
+    transition: 0.6s;
+}
+
+i.bi-facebook:hover {
+    color: blue;
+}
+
+i.bi-twitter:hover {
+    color: blue;
+}
+
+i.bi-instagram:hover {
+    color: red;
+}
+
+i.bi-github:hover {
+    color: black;
+}
+
+p#CodeWithHarry {
+    font-size: 25px;
+    font-family: sans-serif;
+    color: rgb(52, 45, 45);
+}

@@ -1,0 +1,225 @@
+ /* Responsivness */
+ @media screen and (max-width:1010px) {
+    #navbar {
+        display: flex;
+        justify-content: center;
+    }
+
+    .lists {
+        display: none;
+    }
+
+    h2 {
+        font-size: 32px;
+    }
+
+    .buttons {
+        width: 100%;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+
+    .btn {
+        margin: 0px 10px;
+    }
+
+    img.coding-img {
+        display: none;
+    }
+
+    #main-container {
+        justify-content: center;
+        text-align: center;
+        height: 350px;
+    }
+
+    .left-side {
+        max-width: 620px;
+    }
+
+    p.para {
+        font-size: 15px;
+    }
+
+    button#free-btn {
+        padding: 8px 10px;
+    }
+
+    button#blog {
+        padding: 8px 10px;
+    }
+
+    div.courses {
+        width: 238px;
+    }
+
+    img.harry-images {
+        width: 238px;
+    }
+
+    .allCourses p.second {
+        font-size: 15px;
+    }
+
+    .allCourses p.third {
+        max-width: 200px;
+        font-size: 12px;
+    }
+
+    #tailwind {
+        margin-top: 105px;
+    }
+
+    .testimonials {
+        max-width: 386px;
+    }
+
+    .main-testimonial {
+        padding: 0px;
+    }
+
+    p.asif {
+        margin-top: 87px;
+    }
+
+    .secondSearch {
+        width: 180px;
+    }
+
+    #second-list li a.second-nav-items {
+        padding: 0px 3px;
+    }
+}
+
+/* For mid screen iPad */
+@media screen and (max-width:650px) {
+    #second-list {
+        display: none;
+    }
+
+    .secondSearch {
+        width: 235px;
+    }
+
+    #main-container {
+        padding: 0px 29px;
+        height: 65vh;
+    }
+
+    .allCourses {
+        margin: auto;
+        flex-direction: column;
+        max-width: 364px;
+    }
+
+    h1.heading {
+        font-size: 1.8rem;
+    }
+
+    p.para {
+        font-size: 13px;
+    }
+
+    img.harry-images {
+        width: 370px;
+    }
+
+    div.courses {
+        width: 370px;
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+
+    .allCourses p.second {
+        font-size: 21px;
+    }
+
+    .allCourses p.third {
+        max-width: 285px;
+        font-size: 16px;
+    }
+
+    #tailwind {
+        margin-top: 18px;
+        margin-bottom: 18px;
+    }
+
+    #next-js {
+        margin-top: 13px;
+        margin-bottom: 18px;
+    }
+
+    #react {
+        margin-top: 18px;
+    }
+
+    .main-testimonial {
+        flex-direction: column;
+        padding: 0px 30px;
+    }
+
+    .testimonials {
+        max-width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .man {
+        margin-bottom: 20px;
+    }
+
+    p.asif {
+        margin-top: 39px;
+    }
+
+    p#CodeWithHarry {
+        font-size: 19px;
+    }
+
+    p.copyright {
+        font-size: 13px;
+    }
+
+    #icons {
+        font-size: 15px;
+    }
+
+    .social-media {
+        padding: 0px 2px;
+    }
+}
+
+/*  For phone */
+@media screen and (max-width:650px) {
+    div.courses {
+        width: 310px;
+    }
+
+    img.harry-images {
+        width: 310px;
+    }
+
+    .allCourses p.second {
+        font-size: 18px;
+    }
+
+    .allCourses p.third {
+        max-width: 239px;
+        font-size: 14px;
+        margin-bottom: 5px;
+    }
+
+    .footer-harry {
+        flex-direction: column;
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+    p#CodeWithHarry{
+       font-size: 22px;
+       margin-top: 15px;
+    }
+    p.copyright{
+       font-size: 15px;
+       padding: 7px 0px;
+    }
+}
